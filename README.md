@@ -374,26 +374,6 @@ Compilar:
 pnpm run build
 ```
 
-Formatear:
-
-```powershell
-pnpm format
-```
-
-Prueba e2e:
-
-```powershell
-pnpm test:e2e
-```
-
-Si pnpm reenvía mal los argumentos en PowerShell, ejecutar directamente:
-
-```powershell
-& .\node_modules\.bin\jest.cmd --config .\test\jest-e2e.json --runInBand
-```
-
-La prueba e2e valida que una ruta protegida rechace solicitudes sin token.
-
 ## Drizzle
 
 Generar una migración:
