@@ -419,5 +419,3 @@ Cargar datos iniciales:
 ```powershell
 pnpm db:seed
 ```
-
-No subas al repositorio `node_modules` ni `.env`. Sí debes incluir `.env.example`, las migraciones y la documentación.
